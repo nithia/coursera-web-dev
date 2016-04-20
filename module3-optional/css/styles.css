@@ -1,0 +1,78 @@
+body {
+  font-family: 'Gafata', sans-serif;
+  font-size: 16px;
+}
+
+#header-nav {
+  border-radius: 0;
+  border: 0;
+  background-color: #bfd7ea;
+}
+.navbar-brand {
+  padding-top: 5px;
+}
+.navbar-brand h1 {
+  margin-top: 0;
+  color: #000000;
+  font-family: 'Kanit', sans-serif;
+  font-weight: bold;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#header-nav .navbar-toggle:focus, #header-nav .navbar-toggle:hover {
+  background-color: #839788;
+}
+#header-nav .navbar-collapse {
+  border-color: #baa898;
+}
+#header-nav .icon-bar {
+  background-color: #baa898;
+}
+#nav-list {
+  background-color: #839788;
+  font-size: 1.1em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#nav-list li {
+  border-bottom: solid 1px #baa898;
+  text-align: center;
+}
+#nav-list a {
+  color: #000000
+}
+#nav-list a:hover {
+  background-color: #baa898;
+}
+#main-content > h1 {
+  margin-top: 5px;
+  font-family: 'Kanit', sans-serif;
+  font-size: 2em;
+}
+
+section > div {
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+div.content-wrapper {
+  background-color: #eee0cb;
+  border: solid 1px #000000;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+section h3 {
+  font-family: 'Kanit', sans-serif;
+  font-size: 1.5em;
+}
+
+.link-to-top a:active, .link-to-top a:visited {
+  text-decoration: none;
+  color: #839788;
+}
+.link-to-top a:hover, .link-to-top a:focus {
+  text-decoration: none;
+  color: #000000;
+}
+
